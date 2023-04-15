@@ -13,7 +13,7 @@ app.use(async (ctx, next) => {
     // const { username, password } = ctx.request;
     console.log(ctx.request.body);
 
-    ctx.response.body = "ok";
+    ctx.response.body = "asdhkajsdhaksjdjkahsasdjkhkasdjhasdjk";
     ctx.response.status = 200;
 });
 
