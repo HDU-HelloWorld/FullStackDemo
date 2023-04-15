@@ -6,7 +6,7 @@ const ruleForm = reactive({
     stnum:'',
 })
 const onSubmit = async () => {
-let res = await axios.post('127.0.0.1:5174'+'/login',ruleForm)
+let res = await axios.post('http://127.0.0.1:5174'+'/login',ruleForm)
 console.log(res)
 }
 </script>

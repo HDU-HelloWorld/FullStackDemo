@@ -1,12 +1,18 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
     "@types/koa": "^2.13.6",
+    "@types/koa-bodyparser": "^4.3.10",
     "@types/koa2-cors": "^2.0.2",
     "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
     "koa2-cors": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "ts-node --esm index.ts"
   }
 }
